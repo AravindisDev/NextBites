@@ -4,8 +4,9 @@ import NavBar from "./components/NavBar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "NextBites | Find your next bite",
-  description: "Discover simple, delicious recipes from around the world.",
+  title: "NextBites | Discover Your Next Favorite Recipe",
+  description:
+    "Discover delicious recipes, explore cuisines, and find your next favorite meal with NextBites.",
 };
 
 type RootLayoutProps = {

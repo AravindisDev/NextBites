@@ -1,4 +1,4 @@
-import RecipeCard from "./components/RecipeCard";
+import RecipeGrid from "./components/RecipeGrid";
 import { recipes } from "./data/recipes";
 
 export default function Home() {
@@ -13,11 +13,7 @@ export default function Home() {
       </section>
 
       <section className="recipes-section" aria-label="Recipe collection">
-        <div className="recipe-grid">
-          {recipes.map((recipe) => (
-            <RecipeCard key={recipe.id} recipe={recipe} />
-          ))}
-        </div>
+        <RecipeGrid recipes={recipes} />
       </section>
     </main>
   );
